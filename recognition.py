@@ -6,7 +6,7 @@ import os
 import pygame
 
 pygame.mixer.init()
-# success_sound = pygame.mixer.Sound("C:/Users/gofla/OneDrive/바탕 화면/project_mp3/3-01MainTheme.mp3")
+# success_sound = pygame.mixer.Sound("project_mp3/{your mp3}")
 
 DB_PATH = "data/people.json"
 FONT_PATH = "C:/Windows/Fonts/malgunbd.ttf"
