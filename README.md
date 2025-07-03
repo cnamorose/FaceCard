@@ -12,8 +12,9 @@ This project was developed as a **team assignment for a Computer Vision course**
 
 - User-defined color tagging for individuals
 - Business card image registration with automatic text extraction (OCR)
-- Face image registration (encoding and storage)
-- Real-time face recognition and information display  
+- Face image registration 
+- Real-time face recognition and information display
+- Optionally, background music is played during program execution using Pygame.
 
 ## Preview
 <p>
@@ -28,7 +29,7 @@ This project was developed as a **team assignment for a Computer Vision course**
 - **PIL**, **Numpy** – Image processing and numerical computation  
 - **Re (Regular Expressions)** – Text filtering and cleaning  
 - **Json** – User data storage  
-- **Pygame** – UI rendering for displaying identified information
+- **Pygame** – Background music playback during program execution
 
 ## How It Works
 <p>
@@ -48,9 +49,9 @@ project/
 │   └── faces/              # Saved face images
 │
 ├── project_mp3/            # (Optional) MP3 files for audio output
-├── result/                 # Output or temporary results (if any)
+├── result/                 # # Folder created for README screenshots (not required to run)
 │
-├── facecard_pipline.png    # System architecture diagram
+├── facecard_pipline.png    # System architecture diagram (used in README only, not required for execution)
 ├── requirements.txt        # Python dependencies list
 └── README.md               # Project overview and usage guide
 ```
