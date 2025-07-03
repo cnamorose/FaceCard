@@ -121,7 +121,7 @@ def main():
         print("등록된 얼굴이 없습니다.")
         return
     
-    animal1 = cv2.imread("C:\image\project_cam_image2.png", cv2.IMREAD_UNCHANGED)
+    # animal1 = cv2.imread("C:\image\project_cam_image2.png", cv2.IMREAD_UNCHANGED)
 
     cap = cv2.VideoCapture(0)
 
@@ -137,7 +137,7 @@ def main():
         y = frame_h - 100
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         faces = face_cascade.detectMultiScale(gray, 1.1, 5)
-        frame = overlay_image(frame, animal1, x=400, y=280, overlay_size=(200, 200))
+        # frame = overlay_image(frame, animal1, x=400, y=280, overlay_size=(200, 200))
 
         for (x, y, w, h) in faces:
             roi = gray[y:y+h, x:x+w]
