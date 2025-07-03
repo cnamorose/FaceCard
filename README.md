@@ -32,7 +32,7 @@ This project was developed as a **team assignment for a Computer Vision course**
 - **Pygame** – Background music playback during program execution
 
 ## How It Works
-<p>
+<p align="center">
   <img src="facecard_pipline.png" width="70%" />
 </p>
 
