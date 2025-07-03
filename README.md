@@ -14,7 +14,7 @@ This project was developed as a **team assignment for a Computer Vision course**
 - Business card image registration with automatic text extraction (OCR)
 - Face image registration 
 - Real-time face recognition and information display
-- Optionally, background music is played during program execution using Pygame.
+- Optionally, background music is played during program execution using Pygame
 
 ## Preview
 <p>
